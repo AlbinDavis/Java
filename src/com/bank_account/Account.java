@@ -1,4 +1,4 @@
-package bank_account;
+package com.bank_account;
 public class Account {
     public String name;
     private int acc_no;
