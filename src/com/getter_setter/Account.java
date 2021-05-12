@@ -1,25 +1,15 @@
-package com.bank_account;
+package com.getter_setter;
 public class Account {
     public String name;
     private int acc_no;
     private int balance;
     public String email;
 
-    public int getBalance() {
-        return balance;
-    }
 
     public void setBalance(int balance) {
         this.balance = balance;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
 
 
     public int getAcc_no() {
@@ -30,15 +20,7 @@ public class Account {
         this.acc_no = acc_no;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-    public String getName(){
-        return name;
-    }
-    public void openaccount(){
-        System.out.println("Account opened for"+name);
-    }
+
     public void add_money(int money){
         balance+=money;
         System.out.println("Current balance is"+balance);
