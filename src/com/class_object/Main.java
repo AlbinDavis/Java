@@ -1,6 +1,5 @@
-package com.company;
-import java.util.Scanner;
-import java.io.*;
+package com.class_object;
+
 public class Main {
     public static void main(String[] args) {
     Employe emp1=new Employe();

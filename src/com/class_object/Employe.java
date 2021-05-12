@@ -1,4 +1,4 @@
-package com.company;
+package com.class_object;
 
 public class Employe {
     private String ename;
