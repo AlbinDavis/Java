@@ -13,5 +13,6 @@ public class String_builder {
         System.out.println(sb1);
         sb1.replace(2,9,"va");
         System.out.println(sb1.capacity());
+
     }
 }
