@@ -8,7 +8,7 @@ void show(String s){
     System.out.println(s);
 }
 }
-public class Poly1 {
+public class Compile_time_Poly1 {
     public static void main(String[] args) {
         A a=new A();
         a.show("java course");

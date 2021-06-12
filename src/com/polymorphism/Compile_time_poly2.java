@@ -7,7 +7,7 @@ class B{
         System.out.println(s);
     }
 }
-public class poly2 {
+public class Compile_time_poly2 {
     public static void main(String[] args) {
         B a=new B();
         a.show('p');//it is type casted and convert to integer
