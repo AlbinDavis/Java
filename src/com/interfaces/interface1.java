@@ -19,11 +19,26 @@ class AB implements first{
         System.out.println("is simple");
     }
 }
+class CD implements first{
+
+    @Override
+    public void a() {
+        System.out.println("Java is");
+    }
+
+    @Override
+    public void b() {
+        System.out.println("Hard");
+    }
+}
 public class interface1 {
     public static void main(String[] args) {
         AB f =new AB();
+        CD c=new CD();
         f.a();
         f.b();
+        c.a();
+        c.b();
 
 
     }
