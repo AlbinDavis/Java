@@ -33,6 +33,11 @@ class CD implements first{
 }
 public class interface1 {
     public static void main(String[] args) {
+//        first n= new AB(); only works if all the methods of first is present in AB
+//        n.a();
+//        n.b();
+
+//or
         AB f =new AB();
         CD c=new CD();
         f.a();
