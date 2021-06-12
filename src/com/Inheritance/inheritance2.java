@@ -25,6 +25,7 @@ class Volume extends Area{
         System.out.println("Volume="+length*width*height);
     }
 
+
 }
 
 public class inheritance2 {
