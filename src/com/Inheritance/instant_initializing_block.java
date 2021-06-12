@@ -4,7 +4,7 @@ class C{
     System.out.println("course");}
 }
 class D extends C{
-    //it is the instant initializing block which make automatically it to a constructor like
+    //This is the instant initializing block which make automatically it to a constructor like
     // C(){
     // super();
     // System.out.println("java course");}
