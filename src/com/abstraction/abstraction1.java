@@ -4,7 +4,7 @@ abstract class baseclass{
         }
 class derivedclass extends baseclass{
     @Override
-    void f() {
+    void f() {//signature of method
         System.out.println("function");
     }
 }
