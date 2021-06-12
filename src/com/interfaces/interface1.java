@@ -2,7 +2,11 @@ package com.interfaces;
 //difference btwn interface and abstract is that in abstract we can have
 // signature of a function and we can also define the
 //function too but in interface we can only have the signature of the function no definition
-//whenever we implement the methods in interface we should use public infront of the method
+//whenever we implement the methods in interface we should use public in front of the method and
+//from java 8 we can use default keyword and we can have body to the method
+//used for complete abstraction
+//to get multiple inheritance
+//provide less dependency amoung classes
 interface first{
     void a();
     void b();
