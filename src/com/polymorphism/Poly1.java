@@ -1,4 +1,5 @@
 package com.polymorphism;
+//compile time polymorphism using method overloading
 class A{
 void show(int x , int y){
     System.out.println("x="+x+"\ny="+y);
