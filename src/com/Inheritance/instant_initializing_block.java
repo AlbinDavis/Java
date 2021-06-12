@@ -4,7 +4,10 @@ class C{
     System.out.println("course");}
 }
 class D extends C{
-    //it is the instant initializing block which make a constructor by default and call super() function
+    //it is the instant initializing block which make automatically it to a constructor like
+    // C(){
+    // super();
+    // System.out.println("java course");}
    {
     System.out.println("java course");}
 }
