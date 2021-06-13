@@ -15,6 +15,4 @@ class instant_initializing_block {
     public static void main(String[] args) {
         new D();
     }
-
-
 }
