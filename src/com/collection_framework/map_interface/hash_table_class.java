@@ -1,8 +1,8 @@
 package com.collection_framework.map_interface;
 
-import java.util.Hashtable;
-import java.util.Map;
-import java.util.TreeMap;
+
+import java.util.*;
+
 //The order is not maintained
 public class hash_table_class {
     public static void main(String[] args) {
