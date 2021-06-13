@@ -1,5 +1,5 @@
 package com.loops;
-public class WhileExample {  
+class WhileExample {
 public static void main(String[] args) {  
     int i=1;  
     while(i<=10){  

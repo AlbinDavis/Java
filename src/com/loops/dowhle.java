@@ -1,5 +1,5 @@
 package com.loops;
-public class DoWhileExample {  
+class DoWhileExample {
 public static void main(String[] args) {  
     int i=1;  
     do{  
