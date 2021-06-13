@@ -13,11 +13,14 @@ public class Arraylist {
         System.out.println("\nUsing for each loop\n");
         for (String i : cars)
             System.out.println(i);
+        cars.remove("Ford");
         System.out.println("\nUsing iterator\n");
         Iterator<String> i = cars.iterator();
         while(i.hasNext())
             System.out.println(i.next());
-
+cars.clear();
+        System.out.println("\nafter clearing\n"+cars);
     }
+
 
 }
