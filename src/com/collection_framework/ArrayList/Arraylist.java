@@ -1,6 +1,6 @@
 package com.collection_framework.ArrayList;
 import java.util.*;
-public class Arraylist {
+public class Arraylist<C> {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
