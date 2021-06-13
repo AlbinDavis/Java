@@ -1,7 +1,7 @@
-package com.collection_framework;
+package com.collection_framework.ArrayList;
 
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
+
 
 public class sorting_arraylist_elements {
     public static void main(String[] args) {
