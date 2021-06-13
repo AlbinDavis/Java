@@ -1,4 +1,4 @@
-package com.collection_framework.List_interface.set;
+package com.collection_framework.set_interface;
 import java.util.*;
 public class hashset {
     public static void main(String[] args) {
