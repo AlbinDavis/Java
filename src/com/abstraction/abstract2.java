@@ -4,7 +4,7 @@ abstract class base{
 }
 class derived extends base{
     void f() {//signature of method
-        System.out.println("function");
+        System.out.println("function vv");
     }
 }
 public class abstract2 {
