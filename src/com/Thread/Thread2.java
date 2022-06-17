@@ -1,10 +1,16 @@
 package com.Thread;
 
 public class Thread2 implements Runnable{
+
+    MathUtil mu;
+    public Thread2(MathUtil mu){
+        this.mu=mu;
+    }
+
     @Override
     public void run(){
         try{
-            System.out.println("thread 1 is running");
+            mu.getMultiples(3);
         }
         catch (Exception e){
             System.out.println(e);

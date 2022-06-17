@@ -1,10 +1,16 @@
 package com.Thread;
 
 public class Thread1 extends Thread{
+
+    MathUtil mu;
+    public Thread1(MathUtil mu){
+        this.mu=mu;
+    }
+
     @Override
     public void run(){
         try{
-            System.out.println("thread 1 is running");
+            mu.getMultiples(2);
         }
         catch (Exception e){
             System.out.println(e);
