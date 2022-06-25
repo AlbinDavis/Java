@@ -14,6 +14,6 @@ public class countOfFirstStringInSecondString {
                 m = Math.min(m, c1.get(s1.charAt(i)) / c2.get(s2.charAt(i)));
             }
         }
-        System.out.println(m);
+        System.out.println(m/7);
     }
 }
