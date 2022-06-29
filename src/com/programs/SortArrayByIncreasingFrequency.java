@@ -17,17 +17,17 @@ public class SortArrayByIncreasingFrequency {
             if (f1 != f2) {
                 return f1 - f2;
             }
-            if (f1 == f2) {
-                if (x < y) {
-                    return 10;
-                } else if (x == y) {
+            if(f1==f2){
+                if(x!=y){
+                    return y-x;
+                }
+                else{
                     return 0;
-                } else {
-                    return -1;
                 }
             }
 
             return -1;
         });
+        System.out.println(list);
     }
 }
