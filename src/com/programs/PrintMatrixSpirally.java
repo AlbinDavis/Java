@@ -19,6 +19,7 @@ public class PrintMatrixSpirally {
                     list.add(arr[top][i]);
                 }
                 top += 1;
+                
             } else if (dir == 1) {
                 for (int i = top; i <= bottom; i++) {
                     list.add(arr[i][right]);
