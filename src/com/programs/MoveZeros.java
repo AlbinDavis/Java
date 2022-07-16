@@ -5,7 +5,7 @@ public class MoveZeros {
         int[] arr= {4,2,4,0,0,3,0,5,1,0};
         int i=0;
         int j = 0;
-        while(i<arr.length && j<arr.length){
+        while(j<arr.length){
             if(arr[i]!=0){
                 i++;
                 j=i+1;
