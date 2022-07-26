@@ -13,8 +13,6 @@ public class IsomorphicStrings {
         Map<Character,Integer> counter2 = counter(str2);
         List<Integer> list = new ArrayList<>();
 
-
-
     }
 
 
