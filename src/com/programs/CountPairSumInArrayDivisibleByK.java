@@ -1,6 +1,6 @@
 package com.programs;
 
-public class CountPairsInArrayDivisibleByK {
+public class CountPairSumInArrayDivisibleByK {
     public static void main(String[] args) {
         int[] arr = {5, 9, 36, 74, 52, 31, 42};
         int k = 3;
