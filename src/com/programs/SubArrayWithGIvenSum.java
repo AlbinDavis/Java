@@ -9,12 +9,19 @@ public class SubArrayWithGIvenSum {
     public static void main(String[] args) {
         int[] arr =
                 //{1 ,2, 13, 5 ,7};
-                // {1,2,3,7,5};
-                {1, 8,4,5,6,3,9};
-        int s = 8;
+                {1,2,3,7,5};
+                //{1,2,3,4};
+        int s=12;
+        ArrayList<Integer> list = new ArrayList<>();
         int startIndex = 0;
         int sum = arr[0];
         int i = 1;
+        if(arr[0]==s){
+            list.add(1);
+            list.add(1);
+            System.out.println(list);
+            System.exit(0);
+        }
         while (i < arr.length) {
 
             sum += arr[i];
@@ -25,14 +32,25 @@ public class SubArrayWithGIvenSum {
                 startIndex += 1;
             }
             if (sum == s) {
-                break;
+                list.add(startIndex + 1);
+                list.add(i + 1);
+                System.out.println(list);
+                System.exit(0);
             }
             i += 1;
+
+
+
         }
-        if(s==sum){
-        System.out.println(Arrays.asList(startIndex + 1, i + 1));}
-        else{
-            System.out.println("not found");
+        if(arr[arr.length-1]==s){
+            list.add(arr.length);
+            list.add(arr.length);
+            System.out.println(list);
+            System.exit(0);
         }
+        // else
+        list.add(-1);
+        System.out.println(list);
+        System.exit(0);
     }
 }
