@@ -2,7 +2,7 @@ package com.programs;
 
 import java.util.Stack;
 
-public class isSubSequence {
+public class IsSubSequence {
     public static void main(String[] args) {
         String s = "abc", t = "ahbgdc";
         System.out.println(isSubsequenceUsingStack(s,t));
