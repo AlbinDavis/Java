@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class FirstAndLastElementInAnSortedArray {
     public static void main(String[] args) {
-        int[] nums={5,7,7,10};
+        int[] nums={22,5,7,7,10};
         int target = 8;
         System.out.println(Arrays.toString(searchRange(nums, target)));
     }
