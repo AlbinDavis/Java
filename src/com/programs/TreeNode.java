@@ -1,16 +1,16 @@
 package com.programs;
 
 public class TreeNode<U> {
-    U data;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(U data,TreeNode left,TreeNode right){
-        this.data = data;
+    U val;
+    TreeNode<U> left;
+    TreeNode<U> right;
+    TreeNode(U val, TreeNode<U> left, TreeNode<U> right){
+        this.val = val;
         this.left = left;
         this.right = right;
     }
-    TreeNode(){};
-    TreeNode(U data){
-        this.data = data;
+    TreeNode(){}
+    TreeNode(U val){
+        this.val = val;
     }
 }
