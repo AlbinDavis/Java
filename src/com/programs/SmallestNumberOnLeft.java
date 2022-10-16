@@ -11,7 +11,7 @@ public class SmallestNumberOnLeft {
         List<Integer> list=new ArrayList<>();
         stack.push(-1);
         for(int i:arr){
-            while(stack.peek()>=i && stack.size()>0)
+            while(stack.peek()>=i && stack.peek()!=-1)
                 stack.pop();
             list.add(stack.peek());
             stack.push(i);
