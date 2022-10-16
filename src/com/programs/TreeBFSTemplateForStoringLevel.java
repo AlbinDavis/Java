@@ -18,6 +18,7 @@ public class TreeBFSTemplateForStoringLevel {
         while (!queue.isEmpty()) {
             int len = queue.size();
             Deque<Object> deque = new LinkedList<>();
+            //first check condition and then decreases
             while (len-- > 0) {
                 TreeNode<Integer> node = queue.poll();
                 deque.add(node.val);
