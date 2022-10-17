@@ -11,7 +11,7 @@ public class TreeBFSTemplateForStoringLevel {
         BFSTemplate(root);
     }
 
-    private static void BFSTemplate(TreeNode<Integer> root) {
+    public static void BFSTemplate(TreeNode<Integer> root) {
         Queue<TreeNode<Integer>> queue = new LinkedList<>();
         queue.add(root);
         List<Deque<Object>> result = new ArrayList<>();
@@ -22,10 +22,10 @@ public class TreeBFSTemplateForStoringLevel {
             while (len-- > 0) {
                 TreeNode<Integer> node = queue.poll();
                 deque.add(node.val);
-                if (node.right != null)
-                    queue.add(node.right);
                 if (node.left != null)
                     queue.add(node.left);
+                if (node.right != null)
+                    queue.add(node.right);
             }
             result.add(deque);
         }

@@ -12,7 +12,7 @@ public class TreeBFS {
         BFS(root);
 
     }
-    private static void BFS(TreeNode<Integer> root){
+    public static void BFS(TreeNode<Integer> root){
         Queue<TreeNode<Integer>> queue = new LinkedList<>();
         queue.add(root);
         while(!queue.isEmpty()){
