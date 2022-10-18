@@ -14,20 +14,20 @@ public class TreeBFSTemplateForStoringLevel {
     public static void BFSTemplate(TreeNode<Integer> root) {
         Queue<TreeNode<Integer>> queue = new LinkedList<>();
         queue.add(root);
-        List<Deque<Object>> result = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
         while (!queue.isEmpty()) {
             int len = queue.size();
-            Deque<Object> deque = new LinkedList<>();
+            LinkedList<Integer> list = new LinkedList<>();
             //first check condition and then decreases
             while (len-- > 0) {
                 TreeNode<Integer> node = queue.poll();
-                deque.add(node.val);
+                list.add(node.val);
                 if (node.left != null)
                     queue.add(node.left);
                 if (node.right != null)
                     queue.add(node.right);
             }
-            result.add(deque);
+            result.add(list);
         }
         System.out.println(result);
     }
