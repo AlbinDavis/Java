@@ -12,9 +12,7 @@ public class WordBreak {
     }
     public static boolean wordBreak(String s, List<String> wordDict) {
         String str="";
-        Set<String> set = new HashSet<>();
-        for(String i:wordDict)
-            set.add(i);
+        Set<String> set = new HashSet<>(wordDict);
         for(char i:s.toCharArray()){
             str+=i;
             if(set.contains(str)){
@@ -22,10 +20,7 @@ public class WordBreak {
                 str="";}
         }
         System.out.println(str);
-        if(str=="")
-            return true;
-        else
-            return false;
+        return str.equals("");
     }
 }
 
