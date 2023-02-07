@@ -47,7 +47,7 @@ public class InversionCount {
         }
     }
 
-    // Main function that sorts arr[l..r] using
+    // Phone function that sorts arr[l..r] using
     // merge()
     static void sort(int arr[], int l, int r)
     {

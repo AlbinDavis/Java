@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
+
 //Default sort is ascending here we are doing descending
 public class Main {
     public static void main(String[] args) {
@@ -22,8 +24,11 @@ public class Main {
 
         //The above can be implemented using the lambda function also so that we can reduce the number of lines and makes it more readable
         //Descending on name of student
-        list.sort((Student x,Student y)->y.name.compareTo(x.name));
+        list.sort((Student x,Student y)->y.getRoll().compareTo(x.getRoll()));
         list.forEach(x-> System.out.println(x.getName()));
 
+        //using stream
+        List<String> res = list.stream().sorted((x,y)->y.getRoll().compareTo(x.getRoll())).map(Student::getName).collect(Collectors.toList());
+        System.out.println("*"+res);
     }
 }

@@ -8,10 +8,8 @@ public class CountSort {
         int max=arr[0];
         int min = arr[0];
         for(int i:arr){
-            if(i>max)
-                max=i;
-            else if(i<min)
-                min=i;
+            min = Math.min(min,i);
+            max = Math.min(max,i);
         }
         int[] frequencyArray = new int[max-min+1];
 

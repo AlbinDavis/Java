@@ -10,7 +10,6 @@ public class MaxWidthOfBinaryTree {
         root.right = new TreeNode<>(2);
         root.left.left = new TreeNode<>(5);
 
-
         Queue<List<?>> queue = new LinkedList<>();
         queue.add(new ArrayList<>(Arrays.asList(root,0)));
         int first =0,last =0;

@@ -12,8 +12,7 @@ public class LargestNumber {
         Arrays.sort(arr,(X,Y)->{
             String XY = X+Y;
             String YX = Y+X;
-            return XY.compareTo(YX) > 0 ? -1 : 1;
-
+            return YX.compareTo(XY);
         });
         if(arr[0].equals("0")) System.out.println("0");;
         StringBuilder sb=new StringBuilder();
