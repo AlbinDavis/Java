@@ -1,7 +1,7 @@
 package problems.programs;
 
-public class Abc {
+public class Avo {
     public static void main(String[] args) {
-        System.out.println("adfss abcd");
+        System.out.println("adsfsdss");
     }
 }
